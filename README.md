@@ -1,8 +1,8 @@
 # LotteryNineDemo
 基于RecyclerView实现九宫格抽奖
 
-显示效果
-https://github.com/ChiHuo-Super/LotteryNineDemo/blob/master/1587558479(1).png
+显示效果  
+![](https://github.com/ChiHuo-Super/LotteryNineDemo/blob/master/1587558479(1).png)
 
 v1.0.0版本  
 1、以RecyclerView控件为显示基础，ValueAnimator实现动画效果  
