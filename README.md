@@ -2,7 +2,7 @@
 基于RecyclerView实现九宫格抽奖
 
 显示效果  
-![](https://github.com/ChiHuo-Super/LotteryNineDemo/blob/master/showimg.png)
+![](https://i.loli.net/2020/04/22/TR6eSPdG1CxzuXU.png)
 
 v1.0.0版本  
 1、以RecyclerView控件为显示基础，ValueAnimator实现动画效果  
