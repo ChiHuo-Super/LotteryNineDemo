@@ -133,6 +133,10 @@ public class LotteryAdapter extends RecyclerView.Adapter {
         startAnim(win);
     }
 
+    /**
+     * 传入承载控件高度
+     * @param mRecyclerViewHeight 控件高度
+     */
     public void setRecyclerViewHeight(int mRecyclerViewHeight) {
         this.mRecyclerViewHeight = mRecyclerViewHeight;
     }
@@ -141,6 +145,7 @@ public class LotteryAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(context).inflate(R.layout.layout_lottery_item, viewGroup, false);
+       //item高度自适应
         if (mRecyclerViewHeight != 0)
             view.getLayoutParams().height = (mRecyclerViewHeight - 16 * 2) / 3;
         return new ViewHolder(view);

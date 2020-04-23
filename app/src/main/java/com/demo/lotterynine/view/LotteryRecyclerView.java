@@ -55,15 +55,14 @@ public class LotteryRecyclerView extends ConstraintLayout {
                 }
             });
             rv_draw.setAdapter(rvAdapter);
-            getViewHeight();
+            setViewHeight();
         }
     }
 
     /**
-     * 获取适配控件的高度
+     * 设置控件的适配高度
      */
-
-    private void getViewHeight() {
+    private void setViewHeight() {
         ViewTreeObserver vto = rv_draw.getViewTreeObserver();
         vto.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
